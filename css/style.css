@@ -1,0 +1,20 @@
+.green-text {
+    color: #24cf5f;
+}
+
+.btn-primary {
+    padding: 13px 43px;
+    border: 2px solid;
+    line-height: 2;
+    border-radius: 50px;
+    background-color: #24cf5f;
+    border-color: #24cf5f;
+    color: white;
+
+}
+
+.navbar-default {
+    margin-top: 10px;
+    background-color: white;
+    border-color: white;
+}
