@@ -58,7 +58,8 @@
 }
 
 .row {
-    vertical-align: center;
+    padding: 60px 0;
+
 }
 
 .section-title {
@@ -80,7 +81,7 @@
     font-size: 20px;
     line-height: 1.4;
     letter-spacing: 0px;
-    margin: 15px 0;
+    margin: 15px 0 50px 0;
 }
 
 .normal-text {
