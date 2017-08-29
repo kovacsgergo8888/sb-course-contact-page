@@ -8,6 +8,10 @@
     color: #24cf5f;
 }
 
+.white-text {
+    color: white !important;
+}
+
 .btn {
     transition: all .3s;
 }
@@ -83,7 +87,7 @@
     margin: 15px 0 50px 0;
 }
 
-.normal-text {
+.grey-text {
     font-weight: 400;
     color: #848484;
     font-size: 15px;
@@ -110,11 +114,11 @@
     display: inline-block;
 }
 
-.parallax-background {
-    background: url("/image/parallax.jpg");
-    width: 100%;
-    z-index: -9999;
-}
+/*.parallax-background {*/
+    /*background: url("/image/parallax.jpg");*/
+    /*width: 100%;*/
+    /*z-index: -9999;*/
+/*}*/
 
 .no-background {
     background-color: transparent;
@@ -130,8 +134,22 @@
     width: 15%;
 }
 
-.white-text {
-    color: white !important;
+.timeline .h4:first-child {
+    padding-top: 60px;
+}
+
+.timeline .h4 {
+    padding: 20px 0 5px 0;
+}
+
+.large {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.larger {
+    font-size: 4rem;
+    font-weight: bold;
 }
 
 .no-padding {
@@ -141,4 +159,7 @@
 
 .no-margin {
     margin: 0;
+}
+* {
+    outline: 1px rgba(0, 0, 0, 0.3) solid;
 }
